@@ -287,7 +287,7 @@ install_data(
 
 install_subdir(
     'subprojects/chatapp',
-    install_dir: datadir / 'doc',
+    install_dir: pkgdocdir / 'chatapp',
 )
 
 config_man = configuration_data()
