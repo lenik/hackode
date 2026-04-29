@@ -1,0 +1,80 @@
+.TH enckode 1 "@PROJECT_YEAR@" "@PROJECT_VERSION@" "User Commands"
+.SH NAME
+enckode \- hacker cipher encrypt/decrypt helper
+.br
+deckode \- enckode decryption alias
+.SH SYNOPSIS
+.B enckode
+.RI [ OPTION ]... [ args ]...
+.br
+.B deckode
+.RI [ OPTION ]... [ args ]...
+.SH DESCRIPTION
+Encrypt/decrypt using a shared dictionary-based reversible transform.
+.PP
+If no args are provided, reads one message from standard input.
+.PP
+.B deckode
+is installed as a symlink to
+.BR enckode .
+When invoked as
+.B deckode
+the default mode is decryption (equivalent to passing
+.BR --decrypt ).
+.SH OPTIONS
+.TP
+.BR \-D ", " \-\-dict\ FILE
+Dictionary source. If FILE ends with
+.B .map
+it is treated as a precompiled mmap image. Otherwise it's treated as a text
+dictionary (one word per line). Empty lines and lines starting with
+.B #
+are ignored.
+.TP
+.BR \-e ", " \-\-encrypt
+Encryption mode (default).
+.TP
+.BR \-d ", " \-\-decrypt
+Decryption mode.
+.TP
+.BR \-n ", " \-\-number
+Number mode: operate on base-N div tokens as decimal numbers.
+.TP
+.BR \-a ", " \-\-auto
+Auto detect each encryption arg as number or string (numbers are treated as number by default unless --string).
+.TP
+.BR \-s ", " \-\-string
+Always treat encryption args as strings (overrides --auto).
+.TP
+.BR \-c ", " \-\-stdout
+Output to standard output (default).
+.TP
+.BR \-v ", " \-\-verbose
+Enable more logging.
+.TP
+.BR \-q ", " \-\-quiet
+Reduce logging.
+.TP
+.BR \-h ", " \-\-help
+Display this help and exit.
+.TP
+.B \-\-version
+Output version and exit.
+.SH EXIT STATUS
+.TP
+.B 0
+Success.
+.TP
+.B 1
+An error occurred (invalid options, unreadable dict file, or transform failure).
+.SH AUTHOR
+Written by @PROJECT_AUTHOR@ <@PROJECT_EMAIL@>.
+.SH COPYRIGHT
+Copyright \(co @PROJECT_YEAR@.
+License AGPL-3.0-or-later. This is free software: you are free to change and
+redistribute it under the terms of the GNU Affero General Public License.
+There is NO WARRANTY, to the extent permitted by law.
+See the LICENSE file in the source distribution for the full license text,
+including supplemental terms stating this project opposes AI exploitation and
+AI hegemony, and rejects mindless MIT-style licensing and politically naive
+BSD-style licensing.

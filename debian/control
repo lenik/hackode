@@ -1,0 +1,72 @@
+Source: hackode
+Section: utils
+Priority: optional
+Maintainer: Lenik (谢继雷) <lenik@bodz.net>
+Build-Depends: debhelper-compat (= 13), meson, ninja-build, pkgconf, check, libbas-c-dev
+Standards-Version: 4.6.0
+Homepage: https://github.com/lenik/hackode
+Rules-Requires-Root: no
+
+Package: hackode
+Architecture: any
+Depends:
+    ${shlibs:Depends},
+    ${misc:Depends}
+Description: Dictionary-based reversible transform CLI tools
+ hackode ships the enckode/deckode command-line tools and runtime assets.
+ It provides dictionary-driven reversible text/number transforms with
+ gettext translations, shell completion, and man pages.
+Description-de: CLI-Werkzeuge fuer reversible worterbuchbasierte Transformation
+Description-eo: Komandliniaj iloj por inversigebla vortaro-bazita transformo
+Description-fr: Outils CLI de transformation reversible basee sur dictionnaire
+Description-it: Strumenti CLI per trasformazione reversibile basata su dizionario
+Description-ja: 辞書ベース可逆変換のCLIツール
+Description-ko: 사전 기반 가역 변환 CLI 도구
+Description-th: เครื่องมือ CLI สำหรับการแปลงแบบย้อนกลับได้โดยใช้พจนานุกรม
+Description-vi: Cong cu CLI bien doi dao nguoc dua tren tu dien
+Description-zh-cn: 基于词典的可逆变换命令行工具
+Description-zh-tw: 基於詞典的可逆變換命令列工具
+
+Package: libhackode0
+Section: libs
+Architecture: any
+Multi-Arch: same
+Depends:
+    ${shlibs:Depends},
+    ${misc:Depends}
+Description: Shared library for hackode dictionary cipher
+ libhackode0 provides the runtime shared library implementing the
+ dictionary-based reversible transform used by enckode/deckode and
+ embeddable by other C applications.
+Description-de: Laufzeitbibliothek fuer die hackode-Woerterbuchchiffre
+Description-eo: Rultempa biblioteko por la hackode-vortarcifro
+Description-fr: Bibliotheque d'execution pour le chiffreur dictionnaire hackode
+Description-it: Libreria runtime per il cifrario a dizionario di hackode
+Description-ja: hackode辞書暗号のランタイム共有ライブラリ
+Description-ko: hackode 사전 암호용 런타임 공유 라이브러리
+Description-th: ไลบรารีใช้งานร่วมแบบรันไทม์สำหรับรหัสพจนานุกรม hackode
+Description-vi: Thu vien dung chung runtime cho ma hoa tu dien hackode
+Description-zh-cn: hackode 词典密码的运行时共享库
+Description-zh-tw: hackode 詞典密碼的執行期共享函式庫
+
+Package: libhackode-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends:
+    libhackode0 (= ${binary:Version}),
+    libbas-c-dev,
+    ${misc:Depends}
+Description: Development files for libhackode
+ libhackode-dev contains headers and pkg-config metadata for developing
+ software against libhackode.
+Description-de: Entwicklungsdateien fuer libhackode
+Description-eo: Evoluigaj dosieroj por libhackode
+Description-fr: Fichiers de developpement pour libhackode
+Description-it: File di sviluppo per libhackode
+Description-ja: libhackode の開発用ファイル
+Description-ko: libhackode 개발 파일
+Description-th: ไฟล์สำหรับพัฒนา libhackode
+Description-vi: Tep phat trien cho libhackode
+Description-zh-cn: libhackode 开发文件
+Description-zh-tw: libhackode 開發檔案

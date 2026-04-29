@@ -1,0 +1,7 @@
+src/hackode/util.c
+src/hackode/dict.c
+src/hackode/imath.c
+src/hackode/enckode.c
+src/hackode/lib.c
+src/hackode/str.c
+src/hackode/dict_tool.c

@@ -1,0 +1,80 @@
+zh_CN	Usage: enckode [OPTION]... [args]...\n	用法：enckode [选项]... [参数]...\n
+zh_CN	Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n	字典来源。若 FILE 以 .map 结尾，则视为预编译的 mmap 镜像；否则视为文本字典（每行一个词）。以 # 开头的行和空行会被忽略。\n
+zh_CN	encryption mode (default)\n	加密模式（默认）\n
+zh_CN	decryption mode\n	解密模式\n
+zh_CN	number mode: output/input base-N div tokens as numbers\n	数字模式：将 base-N 的 div 标记按数字进行输入/输出\n
+zh_CN	auto detect each arg as number or string (numbers are treated as number by default unless --string)\n	自动检测每个参数是数字还是字符串（默认将数字按数字处理，除非使用 --string）\n
+zh_CN	always treat args as strings (overrides --auto)\n	始终将参数视为字符串（覆盖 --auto）\n
+zh_CN	output to stdout (default)\n	输出到标准输出（默认）\n
+zh_TW	Usage: enckode [OPTION]... [args]...\n	用法：enckode [選項]... [參數]...\n
+zh_TW	Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n	字典來源。若 FILE 以 .map 結尾，則視為預先編譯的 mmap 映像；否則視為文字字典（每行一個詞）。以 # 開頭的行與空行會被忽略。\n
+zh_TW	encryption mode (default)\n	加密模式（預設）\n
+zh_TW	decryption mode\n	解密模式\n
+zh_TW	number mode: output/input base-N div tokens as numbers\n	數字模式：以數字方式輸入/輸出 base-N 的 div 標記\n
+zh_TW	auto detect each arg as number or string (numbers are treated as number by default unless --string)\n	自動判斷每個參數是數字或字串（除非使用 --string，否則數字預設按數字處理）\n
+zh_TW	always treat args as strings (overrides --auto)\n	一律將參數視為字串（覆蓋 --auto）\n
+zh_TW	output to stdout (default)\n	輸出到標準輸出（預設）\n
+ja	Usage: enckode [OPTION]... [args]...\n	使い方: enckode [OPTION]... [args]...\n
+ja	Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n	辞書ソース。FILE が .map で終わる場合は事前コンパイル済みの mmap イメージとして扱います。そうでなければテキスト辞書（1行1語）として扱います。# で始まる行と空行は無視されます。\n
+ja	encryption mode (default)\n	暗号化モード（デフォルト）\n
+ja	decryption mode\n	復号モード\n
+ja	number mode: output/input base-N div tokens as numbers\n	数値モード: base-N の div トークンを数値として入出力\n
+ja	auto detect each arg as number or string (numbers are treated as number by default unless --string)\n	各引数を数値または文字列として自動判定（--string を指定しない限り、数値は既定で数値として扱う）\n
+ja	always treat args as strings (overrides --auto)\n	引数を常に文字列として扱う（--auto を上書き）\n
+ja	output to stdout (default)\n	標準出力へ出力（デフォルト）\n
+ko	Usage: enckode [OPTION]... [args]...\n	사용법: enckode [OPTION]... [args]...\n
+ko	Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n	사전 소스입니다. FILE이 .map으로 끝나면 미리 컴파일된 mmap 이미지로 처리하고, 그렇지 않으면 텍스트 사전(한 줄에 한 단어)으로 처리합니다. #으로 시작하는 줄과 빈 줄은 무시됩니다.\n
+ko	encryption mode (default)\n	암호화 모드(기본값)\n
+ko	decryption mode\n	복호화 모드\n
+ko	number mode: output/input base-N div tokens as numbers\n	숫자 모드: base-N div 토큰을 숫자로 입력/출력\n
+ko	auto detect each arg as number or string (numbers are treated as number by default unless --string)\n	각 인수를 숫자 또는 문자열로 자동 감지(--string을 지정하지 않으면 숫자는 기본적으로 숫자로 처리)\n
+ko	always treat args as strings (overrides --auto)\n	인수를 항상 문자열로 처리(--auto 덮어쓰기)\n
+ko	output to stdout (default)\n	표준 출력으로 출력(기본값)\n
+th	Usage: enckode [OPTION]... [args]...\n	การใช้งาน: enckode [OPTION]... [args]...\n
+th	Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n	แหล่งพจนานุกรม หาก FILE ลงท้ายด้วย .map จะถือเป็นอิมเมจ mmap ที่คอมไพล์ไว้แล้ว มิฉะนั้นจะถือเป็นพจนานุกรมข้อความ (หนึ่งคำต่อหนึ่งบรรทัด) บรรทัดที่ขึ้นต้นด้วย # และบรรทัดว่างจะถูกละเว้น\n
+th	encryption mode (default)\n	โหมดเข้ารหัส (ค่าเริ่มต้น)\n
+th	decryption mode\n	โหมดถอดรหัส\n
+th	number mode: output/input base-N div tokens as numbers\n	โหมดตัวเลข: รับ/ส่งโทเค็น div แบบฐาน-N เป็นตัวเลข\n
+th	auto detect each arg as number or string (numbers are treated as number by default unless --string)\n	ตรวจจับอัตโนมัติว่าแต่ละอาร์กิวเมนต์เป็นตัวเลขหรือสตริง (โดยปริยายจะมองตัวเลขเป็นตัวเลข ยกเว้นใช้ --string)\n
+th	always treat args as strings (overrides --auto)\n	ตีความอาร์กิวเมนต์เป็นสตริงเสมอ (แทนที่ --auto)\n
+th	output to stdout (default)\n	ส่งออกไปยัง stdout (ค่าเริ่มต้น)\n
+vi	Usage: enckode [OPTION]... [args]...\n	Cách dùng: enckode [OPTION]... [args]...\n
+vi	Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n	Nguồn từ điển. Nếu FILE kết thúc bằng .map thì được xem là ảnh mmap đã biên dịch sẵn; nếu không thì được xem là từ điển văn bản (mỗi dòng một từ). Dòng bắt đầu bằng # và dòng trống sẽ bị bỏ qua.\n
+vi	encryption mode (default)\n	chế độ mã hóa (mặc định)\n
+vi	decryption mode\n	chế độ giải mã\n
+vi	number mode: output/input base-N div tokens as numbers\n	chế độ số: nhập/xuất các token div cơ số-N dưới dạng số\n
+vi	auto detect each arg as number or string (numbers are treated as number by default unless --string)\n	tự động nhận diện mỗi đối số là số hay chuỗi (mặc định số sẽ được xử lý là số trừ khi dùng --string)\n
+vi	always treat args as strings (overrides --auto)\n	luôn xử lý đối số như chuỗi (ghi đè --auto)\n
+vi	output to stdout (default)\n	xuất ra stdout (mặc định)\n
+fr	Usage: enckode [OPTION]... [args]...\n	Utilisation : enckode [OPTION]... [args]...\n
+fr	Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n	Source du dictionnaire. Si FILE se termine par .map, il est traité comme une image mmap précompilée ; sinon, il est traité comme un dictionnaire texte (un mot par ligne). Les lignes vides et celles commençant par # sont ignorées.\n
+fr	encryption mode (default)\n	mode de chiffrement (par défaut)\n
+fr	decryption mode\n	mode de déchiffrement\n
+fr	number mode: output/input base-N div tokens as numbers\n	mode numérique : entrée/sortie des jetons div en base N sous forme de nombres\n
+fr	auto detect each arg as number or string (numbers are treated as number by default unless --string)\n	détecter automatiquement chaque argument comme nombre ou chaîne (les nombres sont traités comme des nombres par défaut sauf avec --string)\n
+fr	always treat args as strings (overrides --auto)\n	toujours traiter les arguments comme des chaînes (remplace --auto)\n
+fr	output to stdout (default)\n	sortie vers stdout (par défaut)\n
+de	Usage: enckode [OPTION]... [args]...\n	Verwendung: enckode [OPTION]... [args]...\n
+de	Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n	Wörterbuchquelle. Wenn FILE auf .map endet, wird es als vorkompiliertes mmap-Abbild behandelt; andernfalls als Textwörterbuch (ein Wort pro Zeile). Zeilen mit # am Anfang sowie leere Zeilen werden ignoriert.\n
+de	encryption mode (default)\n	Verschlüsselungsmodus (Standard)\n
+de	decryption mode\n	Entschlüsselungsmodus\n
+de	number mode: output/input base-N div tokens as numbers\n	Zahlenmodus: Base-N-div-Token als Zahlen ein-/ausgeben\n
+de	auto detect each arg as number or string (numbers are treated as number by default unless --string)\n	jedes Argument automatisch als Zahl oder Zeichenkette erkennen (Zahlen werden standardmäßig als Zahl behandelt, außer bei --string)\n
+de	always treat args as strings (overrides --auto)\n	Argumente immer als Zeichenketten behandeln (überschreibt --auto)\n
+de	output to stdout (default)\n	Ausgabe nach stdout (Standard)\n
+it	Usage: enckode [OPTION]... [args]...\n	Uso: enckode [OPTION]... [args]...\n
+it	Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n	Sorgente del dizionario. Se FILE termina con .map viene trattato come immagine mmap precompilata; altrimenti come dizionario testuale (una parola per riga). Le righe vuote e quelle che iniziano con # vengono ignorate.\n
+it	encryption mode (default)\n	modalità di cifratura (predefinita)\n
+it	decryption mode\n	modalità di decifratura\n
+it	number mode: output/input base-N div tokens as numbers\n	modalità numerica: input/output dei token div in base-N come numeri\n
+it	auto detect each arg as number or string (numbers are treated as number by default unless --string)\n	rileva automaticamente ogni argomento come numero o stringa (i numeri sono trattati come numeri per impostazione predefinita, salvo --string)\n
+it	always treat args as strings (overrides --auto)\n	tratta sempre gli argomenti come stringhe (sovrascrive --auto)\n
+it	output to stdout (default)\n	output su stdout (predefinito)\n
+eo	Usage: enckode [OPTION]... [args]...\n	Uzo: enckode [OPTION]... [args]...\n
+eo	Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n	Vortara fonto. Se FILE finiĝas per .map, ĝi estas traktata kiel antaŭkompilita mmap-bildo; alie ĝi estas traktata kiel teksta vortaro (unu vorto po linio). Linioj komenciĝantaj per # kaj malplenaj linioj estas ignorataj.\n
+eo	encryption mode (default)\n	ĉifrada reĝimo (defaŭlta)\n
+eo	decryption mode\n	malĉifrada reĝimo\n
+eo	number mode: output/input base-N div tokens as numbers\n	numera reĝimo: enigo/eligo de bazo-N div-ĵetonoj kiel nombroj\n
+eo	auto detect each arg as number or string (numbers are treated as number by default unless --string)\n	aŭtomate detekti ĉiun argumenton kiel nombron aŭ ĉenon (nombroj estas traktataj kiel nombroj defaŭlte, krom se --string estas uzata)\n
+eo	always treat args as strings (overrides --auto)\n	ĉiam trakti argumentojn kiel ĉenojn (superregas --auto)\n
+eo	output to stdout (default)\n	eligi al stdout (defaŭlte)\n

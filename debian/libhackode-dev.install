@@ -1,0 +1,4 @@
+usr/include/hackode/*.h
+usr/lib/*/libhackode.so
+usr/lib/*/pkgconfig/hackode.pc
+usr/lib/*/pkgconfig/hackode-static.pc

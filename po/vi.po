@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enckode\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-29 19:28+0800\n"
+"Language: vi\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/hackode/enckode.c:80 src/hackode/enckode.c:112
+msgid "hc_encrypt_str failed"
+msgstr "hc_encrypt_str that bai"
+
+#: src/hackode/enckode.c:96
+msgid "encryption failed (overflow/range)"
+msgstr "ma hoa that bai (tran/vuot pham vi)"
+
+#: src/hackode/enckode.c:124 src/hackode/enckode.c:304
+msgid "out of memory"
+msgstr "het bo nho"
+
+#: src/hackode/enckode.c:130 src/hackode/enckode.c:158
+msgid "hc_decrypt_str failed"
+msgstr "hc_decrypt_str that bai"
+
+#: src/hackode/enckode.c:148
+msgid "number div decryption failed"
+msgstr "giai ma div so that bai"
+
+#: src/hackode/enckode.c:163
+msgid "decrypted text is not an unsigned integer"
+msgstr "van ban da giai ma khong phai la so nguyen khong dau"
+
+#: src/hackode/enckode.c:174
+msgid "Usage: enckode [OPTION]... [args]...\n"
+msgstr "Cách dùng: enckode [OPTION]... [args]...\n"
+
+#: src/hackode/enckode.c:175
+msgid ""
+"\n"
+"Encrypt/Decrypt using a shared dictionary-based reversible transform.\n"
+msgstr ""
+"\n"
+"Ma hoa/Giai ma bang phep bien doi dao nguoc dua tren tu dien dung chung.\n"
+
+#: src/hackode/enckode.c:176
+msgid ""
+"\n"
+"When no args specified, reads one message from stdin.\n"
+msgstr ""
+"\n"
+"Khi khong chi dinh doi so, se doc mot thong diep tu stdin.\n"
+
+#: src/hackode/enckode.c:180
+msgid "Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n"
+msgstr "Nguồn từ điển. Nếu FILE kết thúc bằng .map thì được xem là ảnh mmap đã biên dịch sẵn; nếu không thì được xem là từ điển văn bản (mỗi dòng một từ). Dòng bắt đầu bằng # và dòng trống sẽ bị bỏ qua.\n"
+
+#: src/hackode/enckode.c:183
+msgid "encryption mode (default)\n"
+msgstr "chế độ mã hóa (mặc định)\n"
+
+#: src/hackode/enckode.c:185
+msgid "decryption mode\n"
+msgstr "chế độ giải mã\n"
+
+#: src/hackode/enckode.c:187
+msgid "number mode: output/input base-N div tokens as numbers\n"
+msgstr "chế độ số: nhập/xuất các token div cơ số-N dưới dạng số\n"
+
+#: src/hackode/enckode.c:189
+msgid "auto detect each arg as number or string (numbers are treated as number by default unless --string)\n"
+msgstr "tự động nhận diện mỗi đối số là số hay chuỗi (mặc định số sẽ được xử lý là số trừ khi dùng --string)\n"
+
+#: src/hackode/enckode.c:192
+msgid "always treat args as strings (overrides --auto)\n"
+msgstr "luôn xử lý đối số như chuỗi (ghi đè --auto)\n"
+
+#: src/hackode/enckode.c:194
+msgid "output to stdout (default)\n"
+msgstr "xuất ra stdout (mặc định)\n"
+
+#: src/hackode/enckode.c:198
+msgid "display this help and exit\n"
+msgstr "hiển thị trợ giúp này và thoát\n"
+
+#: src/hackode/enckode.c:200
+msgid "output version information and exit\n"
+msgstr "in thông tin phiên bản và thoát\n"
+
+#: src/hackode/enckode.c:203
+#, c-format
+msgid "Report bugs to: <%s>\n"
+msgstr "Báo lỗi tới: <%s>\n"
+
+#: src/hackode/enckode.c:253
+#, c-format
+msgid "Copyright (C) %d %s\n"
+msgstr "Bản quyền (C) %d %s\n"
+
+#: src/hackode/enckode.c:254
+msgid "License AGPL-3.0-or-later: <https://www.gnu.org/licenses/agpl-3.0.html>\n"
+msgstr "Giấy phép AGPL-3.0-or-later: <https://www.gnu.org/licenses/agpl-3.0.html>\n"
+
+#: src/hackode/enckode.c:256
+msgid "This is free software: you are free to change and redistribute it.\n"
+msgstr "Đây là phần mềm tự do: bạn có thể sửa đổi và phân phối lại.\n"
+
+#: src/hackode/enckode.c:258
+msgid "This project opposes AI exploitation and AI hegemony.\n"
+msgstr "Dự án này phản đối bóc lột AI và bá quyền AI.\n"
+
+#: src/hackode/enckode.c:259
+msgid "This project rejects mindless MIT-style licensing and politically naive BSD-style licensing.\n"
+msgstr "Dự án này bác bỏ kiểu cấp phép MIT máy móc và kiểu cấp phép BSD ngây ngô về chính trị.\n"
+
+#: src/hackode/enckode.c:262
+msgid "There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr "KHÔNG CÓ BẤT KỲ BẢO HÀNH nào trong phạm vi luật cho phép.\n"
+
+#: src/hackode/enckode.c:300
+msgid "stdin read error"
+msgstr "loi doc stdin"
+
+#: src/hackode/enckode.c:311
+msgid "nothing to do"
+msgstr "khong co gi de lam"
+
+#: src/hackode/enckode.c:323
+#, c-format
+msgid "cipher init failed: %d"
+msgstr "khoi tao bo ma that bai: %d"
+
+#: src/hackode/lib.c:63
+#, c-format
+msgid "%s: copying from %s"
+msgstr "%s: dang sao chep tu %s"
+
+#: src/hackode/lib.c:67
+#, c-format
+msgid "%s: %s: %s"
+msgstr "%s: %s: %s"
+
+#: src/hackode/lib.c:76
+#, c-format
+msgid "%s: write error"
+msgstr "%s: lỗi ghi"
+
+#: src/hackode/dict_tool.c:19
+#, c-format
+msgid "Usage: %s <text_dict> <dict.map>"
+msgstr "Cach dung: %s <text_dict> <dict.map>"
+
+#: src/hackode/dict_tool.c:25
+#, c-format
+msgid "%s: failed to compile %s -> %s (err=%d)"
+msgstr "%s: bien dich %s -> %s that bai (loi=%d)"

@@ -1,0 +1,11 @@
+usr/bin/enckode
+usr/bin/deckode
+usr/share/hackode/hackode.map
+usr/share/bash-completion/completions/enckode
+usr/share/bash-completion/completions/deckode
+usr/share/man/man1/enckode.1*
+usr/share/man/man1/deckode.1*
+usr/share/locale/*/LC_MESSAGES/hackode.mo
+usr/share/doc/hackode/README.md
+usr/share/doc/hackode/README-zh.md
+usr/share/doc/hackode/LICENSE
