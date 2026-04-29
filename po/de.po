@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enckode\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-29 20:11+0800\n"
+"Language: de\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/hackode/enckode.c:80 src/hackode/enckode.c:112
+msgid "hc_encrypt_str failed"
+msgstr "hc_encrypt_str fehlgeschlagen"
+
+#: src/hackode/enckode.c:96
+msgid "encryption failed (overflow/range)"
+msgstr "Verschluesselung fehlgeschlagen (Ueberlauf/Bereich)"
+
+#: src/hackode/enckode.c:124 src/hackode/enckode.c:312
+msgid "out of memory"
+msgstr "Nicht genuegend Speicher"
+
+#: src/hackode/enckode.c:130 src/hackode/enckode.c:158
+msgid "hc_decrypt_str failed"
+msgstr "hc_decrypt_str fehlgeschlagen"
+
+#: src/hackode/enckode.c:148
+msgid "number div decryption failed"
+msgstr "Entschluesselung der Zahlendivs fehlgeschlagen"
+
+#: src/hackode/enckode.c:163
+msgid "decrypted text is not an unsigned integer"
+msgstr "Entschluesselter Text ist keine vorzeichenlose Ganzzahl"
+
+#: src/hackode/enckode.c:174
+msgid "Usage: enckode [OPTION]... [args]...\n"
+msgstr "Verwendung: enckode [OPTION]... [args]...\n"
+
+#: src/hackode/enckode.c:175
+msgid ""
+"\n"
+"Encrypt/Decrypt using a shared dictionary-based reversible transform.\n"
+msgstr ""
+"\n"
+"Verschluesseln/Entschluesseln mit einer gemeinsam genutzten, woerterbuchbasierten reversiblen Transformation.\n"
+
+#: src/hackode/enckode.c:176
+msgid ""
+"\n"
+"When no args specified, reads one message from stdin.\n"
+msgstr ""
+"\n"
+"Wenn keine Argumente angegeben sind, wird eine Nachricht von stdin gelesen.\n"
+
+#: src/hackode/enckode.c:180
+msgid "Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n"
+msgstr "Wörterbuchquelle. Wenn FILE auf .map endet, wird es als vorkompiliertes mmap-Abbild behandelt; andernfalls als Textwörterbuch (ein Wort pro Zeile). Zeilen mit # am Anfang sowie leere Zeilen werden ignoriert.\n"
+
+#: src/hackode/enckode.c:183
+msgid "encryption mode (default)\n"
+msgstr "Verschlüsselungsmodus (Standard)\n"
+
+#: src/hackode/enckode.c:185
+msgid "decryption mode\n"
+msgstr "Entschlüsselungsmodus\n"
+
+#: src/hackode/enckode.c:187
+msgid "number mode: output/input base-N div tokens as numbers\n"
+msgstr "Zahlenmodus: Base-N-div-Token als Zahlen ein-/ausgeben\n"
+
+#: src/hackode/enckode.c:189
+msgid "auto detect each arg as number or string (numbers are treated as number by default unless --string)\n"
+msgstr "jedes Argument automatisch als Zahl oder Zeichenkette erkennen (Zahlen werden standardmäßig als Zahl behandelt, außer bei --string)\n"
+
+#: src/hackode/enckode.c:192
+msgid "always treat args as strings (overrides --auto)\n"
+msgstr "Argumente immer als Zeichenketten behandeln (überschreibt --auto)\n"
+
+#: src/hackode/enckode.c:194
+msgid "output to stdout (default)\n"
+msgstr "Ausgabe nach stdout (Standard)\n"
+
+#: src/hackode/enckode.c:198
+msgid "display this help and exit\n"
+msgstr "diese Hilfe anzeigen und beenden\n"
+
+#: src/hackode/enckode.c:200
+msgid "output version information and exit\n"
+msgstr "Versionsinformationen anzeigen und beenden\n"
+
+#: src/hackode/enckode.c:203
+#, c-format
+msgid "Report bugs to: <%s>\n"
+msgstr "Fehler melden an: <%s>\n"
+
+#: src/hackode/enckode.c:253
+#, c-format
+msgid "Copyright (C) %d %s\n"
+msgstr "Copyright (C) %d %s\n"
+
+#: src/hackode/enckode.c:254
+msgid "License AGPL-3.0-or-later: <https://www.gnu.org/licenses/agpl-3.0.html>\n"
+msgstr "Lizenz AGPL-3.0-or-later: <https://www.gnu.org/licenses/agpl-3.0.html>\n"
+
+#: src/hackode/enckode.c:256
+msgid "This is free software: you are free to change and redistribute it.\n"
+msgstr "Dies ist freie Software: Sie duerfen sie aendern und weitergeben.\n"
+
+#: src/hackode/enckode.c:258
+msgid "This project opposes AI exploitation and AI hegemony.\n"
+msgstr "Dieses Projekt lehnt KI-Ausbeutung und KI-Hegemonie ab.\n"
+
+#: src/hackode/enckode.c:259
+msgid "This project rejects mindless MIT-style licensing and politically naive BSD-style licensing.\n"
+msgstr "Dieses Projekt lehnt gedankenlose MIT-artige Lizenzen und politisch naive BSD-artige Lizenzen ab.\n"
+
+#: src/hackode/enckode.c:262
+msgid "There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr "Es gibt KEINE GARANTIE, soweit gesetzlich zulaessig.\n"
+
+#: src/hackode/enckode.c:300
+msgid "stdin read error"
+msgstr "Fehler beim Lesen von stdin"
+
+#: src/hackode/enckode.c:322
+msgid "nothing to do"
+msgstr "Nichts zu tun"
+
+#: src/hackode/enckode.c:334
+#, c-format
+msgid "cipher init failed: %d"
+msgstr "Initialisierung der Chiffre fehlgeschlagen: %d"
+
+#: src/hackode/lib.c:63
+#, c-format
+msgid "%s: copying from %s"
+msgstr "%s: Kopiere von %s"
+
+#: src/hackode/lib.c:67
+#, c-format
+msgid "%s: %s: %s"
+msgstr "%s: %s: %s"
+
+#: src/hackode/lib.c:76
+#, c-format
+msgid "%s: write error"
+msgstr "%s: Schreibfehler"
+
+#: src/hackode/dict_tool.c:19
+#, c-format
+msgid "Usage: %s <text_dict> <dict.map>"
+msgstr "Verwendung: %s <text_dict> <dict.map>"
+
+#: src/hackode/dict_tool.c:25
+#, c-format
+msgid "%s: failed to compile %s -> %s (err=%d)"
+msgstr "%s: Kompilieren von %s -> %s fehlgeschlagen (Fehler=%d)"

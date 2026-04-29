@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enckode\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-29 20:11+0800\n"
+"Language: zh_CN\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/hackode/enckode.c:80 src/hackode/enckode.c:112
+msgid "hc_encrypt_str failed"
+msgstr "hc_encrypt_str 失败"
+
+#: src/hackode/enckode.c:96
+msgid "encryption failed (overflow/range)"
+msgstr "加密失败（溢出/超出范围）"
+
+#: src/hackode/enckode.c:124 src/hackode/enckode.c:312
+msgid "out of memory"
+msgstr "内存不足"
+
+#: src/hackode/enckode.c:130 src/hackode/enckode.c:158
+msgid "hc_decrypt_str failed"
+msgstr "hc_decrypt_str 失败"
+
+#: src/hackode/enckode.c:148
+msgid "number div decryption failed"
+msgstr "数字 div 解密失败"
+
+#: src/hackode/enckode.c:163
+msgid "decrypted text is not an unsigned integer"
+msgstr "解密后的文本不是无符号整数"
+
+#: src/hackode/enckode.c:174
+msgid "Usage: enckode [OPTION]... [args]...\n"
+msgstr "用法：enckode [选项]... [参数]...\n"
+
+#: src/hackode/enckode.c:175
+msgid ""
+"\n"
+"Encrypt/Decrypt using a shared dictionary-based reversible transform.\n"
+msgstr ""
+"\n"
+"使用共享词典驱动的可逆变换进行加密/解密。\n"
+
+#: src/hackode/enckode.c:176
+msgid ""
+"\n"
+"When no args specified, reads one message from stdin.\n"
+msgstr ""
+"\n"
+"未提供参数时，从标准输入读取一条消息。\n"
+
+#: src/hackode/enckode.c:180
+msgid "Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n"
+msgstr "字典来源。若 FILE 以 .map 结尾，则视为预编译的 mmap 镜像；否则视为文本字典（每行一个词）。以 # 开头的行和空行会被忽略。\n"
+
+#: src/hackode/enckode.c:183
+msgid "encryption mode (default)\n"
+msgstr "加密模式（默认）\n"
+
+#: src/hackode/enckode.c:185
+msgid "decryption mode\n"
+msgstr "解密模式\n"
+
+#: src/hackode/enckode.c:187
+msgid "number mode: output/input base-N div tokens as numbers\n"
+msgstr "数字模式：将 base-N 的 div 标记按数字进行输入/输出\n"
+
+#: src/hackode/enckode.c:189
+msgid "auto detect each arg as number or string (numbers are treated as number by default unless --string)\n"
+msgstr "自动检测每个参数是数字还是字符串（默认将数字按数字处理，除非使用 --string）\n"
+
+#: src/hackode/enckode.c:192
+msgid "always treat args as strings (overrides --auto)\n"
+msgstr "始终将参数视为字符串（覆盖 --auto）\n"
+
+#: src/hackode/enckode.c:194
+msgid "output to stdout (default)\n"
+msgstr "输出到标准输出（默认）\n"
+
+#: src/hackode/enckode.c:198
+msgid "display this help and exit\n"
+msgstr "显示此帮助并退出\n"
+
+#: src/hackode/enckode.c:200
+msgid "output version information and exit\n"
+msgstr "输出版本信息并退出\n"
+
+#: src/hackode/enckode.c:203
+#, c-format
+msgid "Report bugs to: <%s>\n"
+msgstr "报告问题到：<%s>\n"
+
+#: src/hackode/enckode.c:253
+#, c-format
+msgid "Copyright (C) %d %s\n"
+msgstr "版权所有 (C) %d %s\n"
+
+#: src/hackode/enckode.c:254
+msgid "License AGPL-3.0-or-later: <https://www.gnu.org/licenses/agpl-3.0.html>\n"
+msgstr "许可证 AGPL-3.0-or-later：<https://www.gnu.org/licenses/agpl-3.0.html>\n"
+
+#: src/hackode/enckode.c:256
+msgid "This is free software: you are free to change and redistribute it.\n"
+msgstr "这是自由软件：你可以自由修改并重新分发。\n"
+
+#: src/hackode/enckode.c:258
+msgid "This project opposes AI exploitation and AI hegemony.\n"
+msgstr "本项目反对 AI 剥削与 AI 霸权。\n"
+
+#: src/hackode/enckode.c:259
+msgid "This project rejects mindless MIT-style licensing and politically naive BSD-style licensing.\n"
+msgstr "本项目反对无脑 MIT 式许可证和政治愚蠢 BSD 式许可证。\n"
+
+#: src/hackode/enckode.c:262
+msgid "There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr "在法律允许范围内，不提供任何担保。\n"
+
+#: src/hackode/enckode.c:300
+msgid "stdin read error"
+msgstr "读取标准输入失败"
+
+#: src/hackode/enckode.c:322
+msgid "nothing to do"
+msgstr "无需处理"
+
+#: src/hackode/enckode.c:334
+#, c-format
+msgid "cipher init failed: %d"
+msgstr "密码器初始化失败：%d"
+
+#: src/hackode/lib.c:63
+#, c-format
+msgid "%s: copying from %s"
+msgstr "%s：正在从 %s 复制"
+
+#: src/hackode/lib.c:67
+#, c-format
+msgid "%s: %s: %s"
+msgstr "%s：%s：%s"
+
+#: src/hackode/lib.c:76
+#, c-format
+msgid "%s: write error"
+msgstr "%s: 写入错误"
+
+#: src/hackode/dict_tool.c:19
+#, c-format
+msgid "Usage: %s <text_dict> <dict.map>"
+msgstr "用法：%s <text_dict> <dict.map>"
+
+#: src/hackode/dict_tool.c:25
+#, c-format
+msgid "%s: failed to compile %s -> %s (err=%d)"
+msgstr "%s：编译 %s -> %s 失败（错误=%d）"

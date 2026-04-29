@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enckode\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-29 20:11+0800\n"
+"Language: eo\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/hackode/enckode.c:80 src/hackode/enckode.c:112
+msgid "hc_encrypt_str failed"
+msgstr "hc_encrypt_str malsukcesis"
+
+#: src/hackode/enckode.c:96
+msgid "encryption failed (overflow/range)"
+msgstr "cifrado malsukcesis (superfluo/intervalo)"
+
+#: src/hackode/enckode.c:124 src/hackode/enckode.c:312
+msgid "out of memory"
+msgstr "manko de memoro"
+
+#: src/hackode/enckode.c:130 src/hackode/enckode.c:158
+msgid "hc_decrypt_str failed"
+msgstr "hc_decrypt_str malsukcesis"
+
+#: src/hackode/enckode.c:148
+msgid "number div decryption failed"
+msgstr "malcifrado de nombra div malsukcesis"
+
+#: src/hackode/enckode.c:163
+msgid "decrypted text is not an unsigned integer"
+msgstr "malcifrita teksto ne estas sensigna entjero"
+
+#: src/hackode/enckode.c:174
+msgid "Usage: enckode [OPTION]... [args]...\n"
+msgstr "Uzo: enckode [OPTION]... [args]...\n"
+
+#: src/hackode/enckode.c:175
+msgid ""
+"\n"
+"Encrypt/Decrypt using a shared dictionary-based reversible transform.\n"
+msgstr ""
+"\n"
+"Cifri/Malcifri per komuna vortara-bazita inversigebla transformo.\n"
+
+#: src/hackode/enckode.c:176
+msgid ""
+"\n"
+"When no args specified, reads one message from stdin.\n"
+msgstr ""
+"\n"
+"Kiam neniuj argumentoj estas donitaj, legas unu mesaĝon el stdin.\n"
+
+#: src/hackode/enckode.c:180
+msgid "Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n"
+msgstr "Vortara fonto. Se FILE finiĝas per .map, ĝi estas traktata kiel antaŭkompilita mmap-bildo; alie ĝi estas traktata kiel teksta vortaro (unu vorto po linio). Linioj komenciĝantaj per # kaj malplenaj linioj estas ignorataj.\n"
+
+#: src/hackode/enckode.c:183
+msgid "encryption mode (default)\n"
+msgstr "ĉifrada reĝimo (defaŭlta)\n"
+
+#: src/hackode/enckode.c:185
+msgid "decryption mode\n"
+msgstr "malĉifrada reĝimo\n"
+
+#: src/hackode/enckode.c:187
+msgid "number mode: output/input base-N div tokens as numbers\n"
+msgstr "numera reĝimo: enigo/eligo de bazo-N div-ĵetonoj kiel nombroj\n"
+
+#: src/hackode/enckode.c:189
+msgid "auto detect each arg as number or string (numbers are treated as number by default unless --string)\n"
+msgstr "aŭtomate detekti ĉiun argumenton kiel nombron aŭ ĉenon (nombroj estas traktataj kiel nombroj defaŭlte, krom se --string estas uzata)\n"
+
+#: src/hackode/enckode.c:192
+msgid "always treat args as strings (overrides --auto)\n"
+msgstr "ĉiam trakti argumentojn kiel ĉenojn (superregas --auto)\n"
+
+#: src/hackode/enckode.c:194
+msgid "output to stdout (default)\n"
+msgstr "eligi al stdout (defaŭlte)\n"
+
+#: src/hackode/enckode.c:198
+msgid "display this help and exit\n"
+msgstr "montri cxi tiun helpon kaj eliri\n"
+
+#: src/hackode/enckode.c:200
+msgid "output version information and exit\n"
+msgstr "montri versiajn informojn kaj eliri\n"
+
+#: src/hackode/enckode.c:203
+#, c-format
+msgid "Report bugs to: <%s>\n"
+msgstr "Raportu cimojn al: <%s>\n"
+
+#: src/hackode/enckode.c:253
+#, c-format
+msgid "Copyright (C) %d %s\n"
+msgstr "Kopirajto (C) %d %s\n"
+
+#: src/hackode/enckode.c:254
+msgid "License AGPL-3.0-or-later: <https://www.gnu.org/licenses/agpl-3.0.html>\n"
+msgstr "Permesilo AGPL-3.0-or-later: <https://www.gnu.org/licenses/agpl-3.0.html>\n"
+
+#: src/hackode/enckode.c:256
+msgid "This is free software: you are free to change and redistribute it.\n"
+msgstr "Tio estas libera programaro: vi rajtas sxangxi kaj redistribui gxin.\n"
+
+#: src/hackode/enckode.c:258
+msgid "This project opposes AI exploitation and AI hegemony.\n"
+msgstr "Tiu projekto kontrauxas AI-ekspluaton kaj AI-hegemonion.\n"
+
+#: src/hackode/enckode.c:259
+msgid "This project rejects mindless MIT-style licensing and politically naive BSD-style licensing.\n"
+msgstr "Tiu projekto malakceptas senpripensan MIT-stilan permesilon kaj politike naivan BSD-stilan permesilon.\n"
+
+#: src/hackode/enckode.c:262
+msgid "There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr "NE ESTAS GARANTIO, lau la amplekso permesita de la lexo.\n"
+
+#: src/hackode/enckode.c:300
+msgid "stdin read error"
+msgstr "eraro dum legado de stdin"
+
+#: src/hackode/enckode.c:322
+msgid "nothing to do"
+msgstr "nenio farebla"
+
+#: src/hackode/enckode.c:334
+#, c-format
+msgid "cipher init failed: %d"
+msgstr "pravalorizo de cifrilo malsukcesis: %d"
+
+#: src/hackode/lib.c:63
+#, c-format
+msgid "%s: copying from %s"
+msgstr "%s: kopiante el %s"
+
+#: src/hackode/lib.c:67
+#, c-format
+msgid "%s: %s: %s"
+msgstr "%s: %s: %s"
+
+#: src/hackode/lib.c:76
+#, c-format
+msgid "%s: write error"
+msgstr "%s: skriberaro"
+
+#: src/hackode/dict_tool.c:19
+#, c-format
+msgid "Usage: %s <text_dict> <dict.map>"
+msgstr "Uzo: %s <text_dict> <dict.map>"
+
+#: src/hackode/dict_tool.c:25
+#, c-format
+msgid "%s: failed to compile %s -> %s (err=%d)"
+msgstr "%s: kompilo de %s -> %s malsukcesis (eraro=%d)"

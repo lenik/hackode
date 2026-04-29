@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enckode\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-29 20:11+0800\n"
+"Language: ja\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/hackode/enckode.c:80 src/hackode/enckode.c:112
+msgid "hc_encrypt_str failed"
+msgstr "hc_encrypt_str ni shippai shimashita"
+
+#: src/hackode/enckode.c:96
+msgid "encryption failed (overflow/range)"
+msgstr "angoka ni shippai shimashita (overflow/range gai)"
+
+#: src/hackode/enckode.c:124 src/hackode/enckode.c:312
+msgid "out of memory"
+msgstr "memori fusoku"
+
+#: src/hackode/enckode.c:130 src/hackode/enckode.c:158
+msgid "hc_decrypt_str failed"
+msgstr "hc_decrypt_str ni shippai shimashita"
+
+#: src/hackode/enckode.c:148
+msgid "number div decryption failed"
+msgstr "suchi div no fukugo ni shippai shimashita"
+
+#: src/hackode/enckode.c:163
+msgid "decrypted text is not an unsigned integer"
+msgstr "fukugo shita tekisuto wa fugo nashi seisu dewa arimasen"
+
+#: src/hackode/enckode.c:174
+msgid "Usage: enckode [OPTION]... [args]...\n"
+msgstr "使い方: enckode [OPTION]... [args]...\n"
+
+#: src/hackode/enckode.c:175
+msgid ""
+"\n"
+"Encrypt/Decrypt using a shared dictionary-based reversible transform.\n"
+msgstr ""
+"\n"
+"kyoyu jisho besu no gyaku henkan de angoka/fukugo shimasu.\n"
+
+#: src/hackode/enckode.c:176
+msgid ""
+"\n"
+"When no args specified, reads one message from stdin.\n"
+msgstr ""
+"\n"
+"hikisuu ga nai baai wa stdin kara 1 tsu no messeeji o yomikomasu.\n"
+
+#: src/hackode/enckode.c:180
+msgid "Dictionary source. If FILE ends with .map it is treated as a precompiled mmap image; otherwise it's treated as a text dictionary (one word per line). #... and empty lines are ignored.\n"
+msgstr "辞書ソース。FILE が .map で終わる場合は事前コンパイル済みの mmap イメージとして扱います。そうでなければテキスト辞書（1行1語）として扱います。# で始まる行と空行は無視されます。\n"
+
+#: src/hackode/enckode.c:183
+msgid "encryption mode (default)\n"
+msgstr "暗号化モード（デフォルト）\n"
+
+#: src/hackode/enckode.c:185
+msgid "decryption mode\n"
+msgstr "復号モード\n"
+
+#: src/hackode/enckode.c:187
+msgid "number mode: output/input base-N div tokens as numbers\n"
+msgstr "数値モード: base-N の div トークンを数値として入出力\n"
+
+#: src/hackode/enckode.c:189
+msgid "auto detect each arg as number or string (numbers are treated as number by default unless --string)\n"
+msgstr "各引数を数値または文字列として自動判定（--string を指定しない限り、数値は既定で数値として扱う）\n"
+
+#: src/hackode/enckode.c:192
+msgid "always treat args as strings (overrides --auto)\n"
+msgstr "引数を常に文字列として扱う（--auto を上書き）\n"
+
+#: src/hackode/enckode.c:194
+msgid "output to stdout (default)\n"
+msgstr "標準出力へ出力（デフォルト）\n"
+
+#: src/hackode/enckode.c:198
+msgid "display this help and exit\n"
+msgstr "このヘルプを表示して終了\n"
+
+#: src/hackode/enckode.c:200
+msgid "output version information and exit\n"
+msgstr "バージョン情報を表示して終了\n"
+
+#: src/hackode/enckode.c:203
+#, c-format
+msgid "Report bugs to: <%s>\n"
+msgstr "不具合報告先: <%s>\n"
+
+#: src/hackode/enckode.c:253
+#, c-format
+msgid "Copyright (C) %d %s\n"
+msgstr "Copyright (C) %d %s\n"
+
+#: src/hackode/enckode.c:254
+msgid "License AGPL-3.0-or-later: <https://www.gnu.org/licenses/agpl-3.0.html>\n"
+msgstr "ライセンス AGPL-3.0-or-later: <https://www.gnu.org/licenses/agpl-3.0.html>\n"
+
+#: src/hackode/enckode.c:256
+msgid "This is free software: you are free to change and redistribute it.\n"
+msgstr "これはフリーソフトウェアです。自由に改変および再配布できます。\n"
+
+#: src/hackode/enckode.c:258
+msgid "This project opposes AI exploitation and AI hegemony.\n"
+msgstr "このプロジェクトは AI 搾取と AI 覇権に反対します。\n"
+
+#: src/hackode/enckode.c:259
+msgid "This project rejects mindless MIT-style licensing and politically naive BSD-style licensing.\n"
+msgstr "このプロジェクトは無批判な MIT 型ライセンスと政治的に愚かな BSD 型ライセンスに反対します。\n"
+
+#: src/hackode/enckode.c:262
+msgid "There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr "法の許す範囲で一切の保証はありません。\n"
+
+#: src/hackode/enckode.c:300
+msgid "stdin read error"
+msgstr "stdin no yomitori eraa"
+
+#: src/hackode/enckode.c:322
+msgid "nothing to do"
+msgstr "shori suru mono wa arimasen"
+
+#: src/hackode/enckode.c:334
+#, c-format
+msgid "cipher init failed: %d"
+msgstr "angoki no shokika ni shippai shimashita: %d"
+
+#: src/hackode/lib.c:63
+#, c-format
+msgid "%s: copying from %s"
+msgstr "%s: %s kara kopii chu"
+
+#: src/hackode/lib.c:67
+#, c-format
+msgid "%s: %s: %s"
+msgstr "%s: %s: %s"
+
+#: src/hackode/lib.c:76
+#, c-format
+msgid "%s: write error"
+msgstr "%s: 書き込みエラー"
+
+#: src/hackode/dict_tool.c:19
+#, c-format
+msgid "Usage: %s <text_dict> <dict.map>"
+msgstr "tsukaikata: %s <text_dict> <dict.map>"
+
+#: src/hackode/dict_tool.c:25
+#, c-format
+msgid "%s: failed to compile %s -> %s (err=%d)"
+msgstr "%s: %s -> %s no konpairu ni shippai shimashita (err=%d)"

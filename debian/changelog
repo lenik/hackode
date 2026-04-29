@@ -1,0 +1,9 @@
+hackode (1.0.0) testing; urgency=medium
+
+  * Initial Debian packaging release for hackode.
+  * Ship enckode/deckode command-line tools and manpage template.
+  * Install libhackode shared library, development headers, and pkg-config metadata.
+  * Include gettext translation catalogs and Meson/Ninja build integration.
+  * Add upstream test suites and chatapp subproject sources in the source package.
+ 
+ -- Lenik (谢继雷) <lenik@bodz.net>  Wed, 29 Apr 2026 20:08:00 +0800
